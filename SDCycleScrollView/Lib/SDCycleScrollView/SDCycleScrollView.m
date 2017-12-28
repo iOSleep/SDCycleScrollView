@@ -208,6 +208,14 @@ NSString * const ID = @"SDCycleScrollViewCell";
     
 }
 
+- (void)setPageDotSpacing:(CGFloat)pageDotSpacing {
+  _pageDotSpacing = pageDotSpacing;
+  if ([self.pageControl isKindOfClass:[TAPageControl class]]) {
+    TAPageControl *pageControl = (TAPageControl *)_pageControl;
+    pageControl.spacingBetweenDots = pageDotSpacing;
+  }
+}
+
 - (void)setPageDotColor:(UIColor *)pageDotColor
 {
     _pageDotColor = pageDotColor;
