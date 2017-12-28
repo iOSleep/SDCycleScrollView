@@ -23,17 +23,10 @@
 		9900D18E1ABEB2490077A6CB /* SDCycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9900D18D1ABEB2490077A6CB /* SDCycleScrollViewTests.m */; };
 		9900D1A01ABEB41B0077A6CB /* h2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9900D19C1ABEB41B0077A6CB /* h2.jpg */; };
 		9900D1A21ABEB41B0077A6CB /* h4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9900D19E1ABEB41B0077A6CB /* h4.jpg */; };
-		990141011AC941FD00D0D74F /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 990140FA1AC941FD00D0D74F /* TAAbstractDotView.m */; };
-		990141021AC941FD00D0D74F /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 990140FC1AC941FD00D0D74F /* TAAnimatedDotView.m */; };
-		990141031AC941FD00D0D74F /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 990140FE1AC941FD00D0D74F /* TADotView.m */; };
-		990141041AC941FD00D0D74F /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 990141001AC941FD00D0D74F /* TAPageControl.m */; };
-		9901410B1AC9420E00D0D74F /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 990141061AC9420E00D0D74F /* SDCollectionViewCell.m */; };
-		9901410C1AC9420E00D0D74F /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 990141081AC9420E00D0D74F /* SDCycleScrollView.m */; };
-		9901410D1AC9420E00D0D74F /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9901410A1AC9420E00D0D74F /* UIView+SDExtension.m */; };
 		999C10981AC14F3B00C11CDB /* h3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 999C10961AC14F3B00C11CDB /* h3.jpg */; };
 		999C109A1AC14F7200C11CDB /* h1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 999C10991AC14F7200C11CDB /* h1.jpg */; };
 		99A732631B24AB660033E878 /* 005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99A732621B24AB660033E878 /* 005.jpg */; };
-		9BEB00FE3EB709E4FB44BABF /* libPods-SDCycleScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE55CBF170FE2BFA0498D7B2 /* libPods-SDCycleScrollView.a */; };
+		F01C70C2B8F13CF9E12B0D3B /* Pods_SDCycleScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733EEF8C119D40404C0E1743 /* Pods_SDCycleScrollView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +52,7 @@
 		5F55240E74603C429F5220D2 /* Pods-SDCycleScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCycleScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDCycleScrollView/Pods-SDCycleScrollView.debug.xcconfig"; sourceTree = "<group>"; };
 		6BAA27FB1EFEA798008693AB /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
 		6BAA27FC1EFEA798008693AB /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
+		733EEF8C119D40404C0E1743 /* Pods_SDCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDCycleScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9900D16E1ABEB2490077A6CB /* SDCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9900D1721ABEB2490077A6CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9900D1731ABEB2490077A6CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -73,24 +67,9 @@
 		9900D18D1ABEB2490077A6CB /* SDCycleScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollViewTests.m; sourceTree = "<group>"; };
 		9900D19C1ABEB41B0077A6CB /* h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h2.jpg; sourceTree = "<group>"; };
 		9900D19E1ABEB41B0077A6CB /* h4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h4.jpg; sourceTree = "<group>"; };
-		990140F91AC941FD00D0D74F /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
-		990140FA1AC941FD00D0D74F /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
-		990140FB1AC941FD00D0D74F /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
-		990140FC1AC941FD00D0D74F /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
-		990140FD1AC941FD00D0D74F /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
-		990140FE1AC941FD00D0D74F /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
-		990140FF1AC941FD00D0D74F /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
-		990141001AC941FD00D0D74F /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
-		990141051AC9420E00D0D74F /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
-		990141061AC9420E00D0D74F /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
-		990141071AC9420E00D0D74F /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
-		990141081AC9420E00D0D74F /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
-		990141091AC9420E00D0D74F /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
-		9901410A1AC9420E00D0D74F /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
 		999C10961AC14F3B00C11CDB /* h3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h3.jpg; sourceTree = "<group>"; };
 		999C10991AC14F7200C11CDB /* h1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h1.jpg; sourceTree = "<group>"; };
 		99A732621B24AB660033E878 /* 005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 005.jpg; sourceTree = "<group>"; };
-		EE55CBF170FE2BFA0498D7B2 /* libPods-SDCycleScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDCycleScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BEB00FE3EB709E4FB44BABF /* libPods-SDCycleScrollView.a in Frameworks */,
+				F01C70C2B8F13CF9E12B0D3B /* Pods_SDCycleScrollView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,17 +94,9 @@
 		48377B8A1C10265E007B8C21 /* DemoVC */ = {
 			isa = PBXGroup;
 			children = (
-				48377B8B1C102758007B8C21 /* 纯代码demo */,
 				48377B8C1C102758007B8C21 /* xib的demo */,
 			);
 			path = DemoVC;
-			sourceTree = "<group>";
-		};
-		48377B8B1C102758007B8C21 /* 纯代码demo */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "纯代码demo";
 			sourceTree = "<group>";
 		};
 		48377B8C1C102758007B8C21 /* xib的demo */ = {
@@ -171,7 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				48377B8A1C10265E007B8C21 /* DemoVC */,
-				9900D1971ABEB2C70077A6CB /* Lib */,
 				9900D1751ABEB2490077A6CB /* AppDelegate.h */,
 				9900D1761ABEB2490077A6CB /* AppDelegate.m */,
 				9900D1781ABEB2490077A6CB /* ViewController.h */,
@@ -221,47 +191,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9900D1971ABEB2C70077A6CB /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				99E7B30A1AC11F1C009F9A2E /* SDCycleScrollView */,
-			);
-			path = Lib;
-			sourceTree = "<group>";
-		};
-		99E7B30A1AC11F1C009F9A2E /* SDCycleScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				990141051AC9420E00D0D74F /* SDCollectionViewCell.h */,
-				990141061AC9420E00D0D74F /* SDCollectionViewCell.m */,
-				990141071AC9420E00D0D74F /* SDCycleScrollView.h */,
-				990141081AC9420E00D0D74F /* SDCycleScrollView.m */,
-				990141091AC9420E00D0D74F /* UIView+SDExtension.h */,
-				9901410A1AC9420E00D0D74F /* UIView+SDExtension.m */,
-				99E7B30B1AC11F1C009F9A2E /* PageControl */,
-			);
-			path = SDCycleScrollView;
-			sourceTree = "<group>";
-		};
-		99E7B30B1AC11F1C009F9A2E /* PageControl */ = {
-			isa = PBXGroup;
-			children = (
-				990140F91AC941FD00D0D74F /* TAAbstractDotView.h */,
-				990140FA1AC941FD00D0D74F /* TAAbstractDotView.m */,
-				990140FB1AC941FD00D0D74F /* TAAnimatedDotView.h */,
-				990140FC1AC941FD00D0D74F /* TAAnimatedDotView.m */,
-				990140FD1AC941FD00D0D74F /* TADotView.h */,
-				990140FE1AC941FD00D0D74F /* TADotView.m */,
-				990140FF1AC941FD00D0D74F /* TAPageControl.h */,
-				990141001AC941FD00D0D74F /* TAPageControl.m */,
-			);
-			path = PageControl;
-			sourceTree = "<group>";
-		};
 		AB85341EE3F3D30597B024D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EE55CBF170FE2BFA0498D7B2 /* libPods-SDCycleScrollView.a */,
+				733EEF8C119D40404C0E1743 /* Pods_SDCycleScrollView.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -382,13 +315,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDCycleScrollView-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C797362FCF67A7B71DDF0C59 /* [CP] Copy Pods Resources */ = {
@@ -412,9 +348,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SDCycleScrollView/Pods-SDCycleScrollView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -429,17 +370,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9900D17A1ABEB2490077A6CB /* ViewController.m in Sources */,
-				990141031AC941FD00D0D74F /* TADotView.m in Sources */,
-				990141011AC941FD00D0D74F /* TAAbstractDotView.m in Sources */,
 				6BAA27FD1EFEA798008693AB /* CustomCollectionViewCell.m in Sources */,
-				990141021AC941FD00D0D74F /* TAAnimatedDotView.m in Sources */,
-				9901410D1AC9420E00D0D74F /* UIView+SDExtension.m in Sources */,
 				9900D1771ABEB2490077A6CB /* AppDelegate.m in Sources */,
-				990141041AC941FD00D0D74F /* TAPageControl.m in Sources */,
 				48377B901C1027F5007B8C21 /* DemoVCWithXib.m in Sources */,
 				9900D1741ABEB2490077A6CB /* main.m in Sources */,
-				9901410B1AC9420E00D0D74F /* SDCollectionViewCell.m in Sources */,
-				9901410C1AC9420E00D0D74F /* SDCycleScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -542,7 +476,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -559,7 +493,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SDCycleScrollView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -577,7 +511,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SDCycleScrollView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
